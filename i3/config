@@ -186,4 +186,5 @@ bindsym $mod+shift+x exec i3lock
 exec_always feh --bg-scale /home/elixy/Pictures/wallpaper/Spare-Me-Over_by_esherymack.png
 
 # autostart
-exec --no-startup-id i3-msg 'workspace $ws2; exec firefox; workspace 1'
+exec --no-startup-id i3-msg 'workspace $ws2; exec firefox'
+exec --no-startup-id i3-msg 'workspace $ws3; exec emacs; workspace $ws1'
